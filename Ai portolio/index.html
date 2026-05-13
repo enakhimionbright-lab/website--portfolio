@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victor Portfolio</title>
+
+  <!-- Remix Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- AOS Animation -->
+  <link
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Vornak Vizuals</div>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-btn" id="menuBtn">
+      <i class="ri-menu-3-line"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text" data-aos="fade-right">
+      <h3>Hello, I'm</h3>
+      <h1>Victor</h1>
+      <h2><span class="typing"></span></h2>
+      <p>
+        I build modern and responsive websites with smooth animations
+        and clean user experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.google.com/search?client=opera&q=github&sourceid=opera&ie=UTF-8&oe=UTF-8"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://www.instagram.com/direct/inbox/"><i class="ri-instagram-line"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image" data-aos="fade-left">
+      <div class="image-box">
+        
+        <img src="download (21).jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-title" data-aos="fade-up">
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-content" data-aos="zoom-in">
+      <p>
+        I'm a passionate frontend web developer who enjoys creating beautiful,
+        interactive and responsive websites. I focus on modern UI design,
+        animations and performance.
+
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui impedit totam natus sit facilis odio provident minima iure voluptates deleniti eius iste, inventore quasi aliquam nobis dicta aspernatur dolorum esse!
+        hhhdhhcnffigggkgmgg gm.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card" data-aos="flip-left">
+        <i class="ri-html5-fill"></i>
+        <h3>HTML</h3>
+      </div>
+
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="100">
+        <i class="ri-css3-fill"></i>
+        <h3>CSS</h3>
+      </div>
+
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="200">
+        <i class="ri-javascript-fill"></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="skill-card" data-aos="flip-left" data-aos-delay="300">
+        <i class="ri-layout-4-fill"></i>
+        <h3>Responsive Design</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-card" data-aos="fade-up">
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1115&auto=format&fit=crop"
+          alt="project"
+        />
+        <div class="project-info">
+          <h3>Modern Website</h3>
+          <p>Responsive website with smooth animations.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-aos="fade-up" data-aos-delay="150">
+        <img
+          src="https://images.unsplash.com/photo-1559028012-481c04fa702d?q=80&w=1170&auto=format&fit=crop"
+          alt="project"
+        />
+        <div class="project-info">
+          <h3>Portfolio Design</h3>
+          <p>Clean UI portfolio with interactive sections.</p>
+        </div>
+      </div>
+
+      <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+        <img
+         src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1172&auto=format&fit=crop"
+          alt="project"
+        />
+        <div class="project-info">
+          <h3>Creative Landing Page</h3>
+          <p>Elegant landing page for startups and brands.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="section-title" data-aos="fade-up">
+      <h2>Contact Me</h2>
+    </div>
+
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-aos="zoom-in">
+
+      <!-- Acess key -->
+      <input type="hidden" name="access_key" value="6ae83041-7001-4c31-bc4c-2609d10c008f">
+
+      <!-- Name -->
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <!-- Email -->
+
+      <input type="email" name="email" placeholder="Your Email" required>
+
+      <input type="hidden" name="from_email" value="">
+
+      <!-- Message -->
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
+      <!-- Button -->
+      <button type="submit" class="btn">Send Messge</button>
+
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Vornak Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Typed JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="script.js"></script>
+  <script>
+      // Mobile Menu
+const menuBtn = document.getElementById("menuBtn");
+const navMenu = document.getElementById("navMenu");
+
+menuBtn.onclick = () => {
+  navMenu.classList.toggle("active");
+};
+
+// Typed Animation
+const typed = new Typed(".typing", {
+  strings: [
+    "Frontend Developer",
+    "UI Designer",
+    "Creative Coder"
+  ],
+  typeSpeed: 80,
+  backSpeed: 50,
+  loop: true
+});
+
+// Scroll Animations
+AOS.init({
+  duration: 1000,
+  once: true
+});
+  </script>
+  <script>
+    document.getElementById("contact-form").addEventListener("submit",function(){
+      let userEmail = document.querySelector("input[name='email']").value;
+      document.getElementById("from_email_hidden").value=userEmail;
+    })
+  </script>
+</body>
+</html>
